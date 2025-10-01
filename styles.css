@@ -116,20 +116,16 @@ a:hover {
     color: #6c7a78;
 }
 
-.project-link {
+.project-link-disabled {
     display: inline-block;
     margin-top: 15px;
     padding: 5px 10px;
-    border: 1px solid #11999E;
+    border: 1px solid #ccc; /* Lighter border color */
     border-radius: 5px;
     font-weight: bold;
+    color: #ccc; /* Lighter text color */
+    cursor: not-allowed; /* Shows a 'not allowed' cursor on hover */
 }
-
-.project-link:hover {
-    background-color: #E4F9F5;
-    color: #11999E;
-}
-
 
 /* --- Contact & Footer --- */
 .contact-message {
@@ -159,7 +155,8 @@ a:hover {
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
@@ -171,4 +168,14 @@ a:hover {
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
+}
+
+.attribution {
+    font-size: 0.75rem;
+    padding: 0 20px 20px;
+    margin: 0;
+}
+
+.attribution a {
+    color: #EAF6F6;
 }
