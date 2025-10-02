@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website, built with HTML and CSS and hosted on GitHub Pages.
 
-**[Check the link view the live website.](https://abdispython.github.io/cv.pro/)**
+**[Check here view the live website.](https://abdispython.github.io/cv.pro/)**
 
 ---
 
